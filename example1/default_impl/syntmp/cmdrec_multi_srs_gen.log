@@ -1,0 +1,7 @@
+F:\Program Files\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  "C:\embedded\FPGA projects\example1\default_impl\synwork\example1_default_impl_comp.srs"  -osyn  "C:\embedded\FPGA projects\example1\default_impl\synwork\example1_default_impl_mult.srs"  -log  "C:\embedded\FPGA projects\example1\default_impl\synlog\example1_default_impl_multi_srs_gen.srr" 
+rc:0 success:1 runtime:0
+file:C:\embedded\FPGA projects\example1\default_impl\synwork\example1_default_impl_comp.srs|io:i|time:1496014789|size:2293|exec:0
+file:C:\embedded\FPGA projects\example1\default_impl\synwork\example1_default_impl_mult.srs|io:o|time:1496014791|size:2195|exec:0
+file:C:\embedded\FPGA projects\example1\default_impl\synlog\example1_default_impl_multi_srs_gen.srr|io:o|time:1496014791|size:770|exec:0
+file:F:\Program Files\lscc\diamond\3.9_x64\synpbase\bin\syn_nfilter.exe|io:i|time:1489014452|size:3128320|exec:1
+file:F:\Program Files\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1489014720|size:3947520|exec:1

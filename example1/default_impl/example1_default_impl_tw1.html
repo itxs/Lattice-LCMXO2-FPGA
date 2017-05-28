@@ -1,0 +1,318 @@
+<HTML>
+<HEAD><TITLE>Lattice Map TRACE Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Map_Twr"></A><B><U><big>Map TRACE Report</big></U></B>
+
+Loading design for application trce from file example1_default_impl_map.ncd.
+Design name: top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 4
+Loading device for application trce from file 'xo2c7000.nph' in environment: F:/Program Files/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+<A name="Map_Twr_setup"></A><B><U><big>Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.9.1.119</big></U></B>
+Mon May 29 02:40:25 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_set_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o example1_default_impl.tw1 -gui -msgset C:/embedded/FPGA projects/example1/promote.xml example1_default_impl_map.ncd example1_default_impl.prf 
+Design file:     example1_default_impl_map.ncd
+Preference file: example1_default_impl.prf
+Device,speed:    LCMXO2-7000HE,4
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+<A name="mtw1_set_ps"></A><B><U><big>Preference Summary</big></U></B>
+
+<LI><A href='#map_twr_pref_0_0' Target='right'>FREQUENCY NET "CLK_c" 143.843000 MHz (0 errors)</A></LI>            406 items scored, 0 timing errors detected.
+Report:  183.587MHz is the maximum frequency for this preference.
+
+Report Type:     based on TRACE automatically generated preferences
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+Derating parameters
+-------------------
+Voltage:    1.140 V
+
+
+
+================================================================================
+<A name="map_twr_pref_0_0"></A>Preference: FREQUENCY NET "CLK_c" 143.843000 MHz ;
+            406 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 1.505ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              counter_0_  (from CLK_c +)
+   Destination:    FF         Data in        counter_27_  (to CLK_c +)
+
+   Delay:               5.281ns  (76.3% logic, 23.7% route), 16 logic levels.
+
+ Constraint Details:
+
+      5.281ns physical path delay SLICE_15 to SLICE_1 meets
+      6.952ns delay constraint less
+      0.166ns DIN_SET requirement (totaling 6.786ns) by 1.505ns
+
+ Physical Path Details:
+
+      Data path SLICE_15 to SLICE_1:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.452   SLICE_15.CLK to    SLICE_15.Q0 SLICE_15 (from CLK_c)
+ROUTE         2   e 1.234    SLICE_15.Q0 to     SLICE_0.A1 counter_1
+C1TOFCO_DE  ---     0.889     SLICE_0.A1 to    SLICE_0.FCO SLICE_0
+ROUTE         1   e 0.001    SLICE_0.FCO to   SLICE_14.FCI counter_1_cry_0
+FCITOFCO_D  ---     0.162   SLICE_14.FCI to   SLICE_14.FCO SLICE_14
+ROUTE         1   e 0.001   SLICE_14.FCO to   SLICE_13.FCI counter_1_cry_2
+FCITOFCO_D  ---     0.162   SLICE_13.FCI to   SLICE_13.FCO SLICE_13
+ROUTE         1   e 0.001   SLICE_13.FCO to   SLICE_12.FCI counter_1_cry_4
+FCITOFCO_D  ---     0.162   SLICE_12.FCI to   SLICE_12.FCO SLICE_12
+ROUTE         1   e 0.001   SLICE_12.FCO to   SLICE_11.FCI counter_1_cry_6
+FCITOFCO_D  ---     0.162   SLICE_11.FCI to   SLICE_11.FCO SLICE_11
+ROUTE         1   e 0.001   SLICE_11.FCO to   SLICE_10.FCI counter_1_cry_8
+FCITOFCO_D  ---     0.162   SLICE_10.FCI to   SLICE_10.FCO SLICE_10
+ROUTE         1   e 0.001   SLICE_10.FCO to    SLICE_9.FCI counter_1_cry_10
+FCITOFCO_D  ---     0.162    SLICE_9.FCI to    SLICE_9.FCO SLICE_9
+ROUTE         1   e 0.001    SLICE_9.FCO to    SLICE_8.FCI counter_1_cry_12
+FCITOFCO_D  ---     0.162    SLICE_8.FCI to    SLICE_8.FCO SLICE_8
+ROUTE         1   e 0.001    SLICE_8.FCO to    SLICE_7.FCI counter_1_cry_14
+FCITOFCO_D  ---     0.162    SLICE_7.FCI to    SLICE_7.FCO SLICE_7
+ROUTE         1   e 0.001    SLICE_7.FCO to    SLICE_6.FCI counter_1_cry_16
+FCITOFCO_D  ---     0.162    SLICE_6.FCI to    SLICE_6.FCO SLICE_6
+ROUTE         1   e 0.001    SLICE_6.FCO to    SLICE_5.FCI counter_1_cry_18
+FCITOFCO_D  ---     0.162    SLICE_5.FCI to    SLICE_5.FCO SLICE_5
+ROUTE         1   e 0.001    SLICE_5.FCO to    SLICE_4.FCI counter_1_cry_20
+FCITOFCO_D  ---     0.162    SLICE_4.FCI to    SLICE_4.FCO SLICE_4
+ROUTE         1   e 0.001    SLICE_4.FCO to    SLICE_3.FCI counter_1_cry_22
+FCITOFCO_D  ---     0.162    SLICE_3.FCI to    SLICE_3.FCO SLICE_3
+ROUTE         1   e 0.001    SLICE_3.FCO to    SLICE_2.FCI counter_1_cry_24
+FCITOFCO_D  ---     0.162    SLICE_2.FCI to    SLICE_2.FCO SLICE_2
+ROUTE         1   e 0.001    SLICE_2.FCO to    SLICE_1.FCI counter_1_cry_26
+FCITOF0_DE  ---     0.585    SLICE_1.FCI to     SLICE_1.F0 SLICE_1
+ROUTE         1   e 0.001     SLICE_1.F0 to    SLICE_1.DI0 counter_1[27] (to CLK_c)
+                  --------
+                    5.281   (76.3% logic, 23.7% route), 16 logic levels.
+
+Report:  183.587MHz is the maximum frequency for this preference.
+
+<A name="mtw1_set_rs"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "CLK_c" 143.843000 MHz ;  |  143.843 MHz|  183.587 MHz|  16  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+<A name="mtw1_set_clkda"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+Found 1 clocks:
+
+Clock Domain: CLK_c   Source: CLK.PAD   Loads: 15
+   Covered under: FREQUENCY NET "CLK_c" 143.843000 MHz ;
+
+
+<A name="mtw1_set_ts"></A><B><U><big>Timing summary (Setup):</big></U></B>
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 406 paths, 1 nets, and 88 connections (91.67% coverage)
+
+--------------------------------------------------------------------------------
+<A name="Map_Twr_hold"></A><B><U><big>Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.9.1.119</big></U></B>
+Mon May 29 02:40:25 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_hold_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o example1_default_impl.tw1 -gui -msgset C:/embedded/FPGA projects/example1/promote.xml example1_default_impl_map.ncd example1_default_impl.prf 
+Design file:     example1_default_impl_map.ncd
+Preference file: example1_default_impl.prf
+Device,speed:    LCMXO2-7000HE,M
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+<A name="mtw1_hold_ps"></A><B><U><big>Preference Summary</big></U></B>
+
+<LI><A href='#map_twr_pref_1_0' Target='right'>FREQUENCY NET "CLK_c" 143.843000 MHz (0 errors)</A></LI>            406 items scored, 0 timing errors detected.
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+Derating parameters
+-------------------
+Voltage:    1.140 V
+
+
+
+================================================================================
+<A name="map_twr_pref_1_0"></A>Preference: FREQUENCY NET "CLK_c" 143.843000 MHz ;
+            406 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.509ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              counter_9_  (from CLK_c +)
+   Destination:    FF         Data in        counter_9_  (to CLK_c +)
+
+   Delay:               0.493ns  (59.4% logic, 40.6% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.493ns physical path delay SLICE_10 to SLICE_10 meets
+     -0.016ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling -0.016ns) by 0.509ns
+
+ Physical Path Details:
+
+      Data path SLICE_10 to SLICE_10:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.167   SLICE_10.CLK to    SLICE_10.Q0 SLICE_10 (from CLK_c)
+ROUTE         1   e 0.199    SLICE_10.Q0 to    SLICE_10.A0 counter_9_
+CTOF_DEL    ---     0.126    SLICE_10.A0 to    SLICE_10.F0 SLICE_10
+ROUTE         1   e 0.001    SLICE_10.F0 to   SLICE_10.DI0 counter_1[9] (to CLK_c)
+                  --------
+                    0.493   (59.4% logic, 40.6% route), 2 logic levels.
+
+<A name="mtw1_hold_rs"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "CLK_c" 143.843000 MHz ;  |     0.000 ns|     0.509 ns|   2  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+<A name="mtw1_hold_clkda"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+Found 1 clocks:
+
+Clock Domain: CLK_c   Source: CLK.PAD   Loads: 15
+   Covered under: FREQUENCY NET "CLK_c" 143.843000 MHz ;
+
+
+<A name="mtw1_hold_ts"></A><B><U><big>Timing summary (Hold):</big></U></B>
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 406 paths, 1 nets, and 88 connections (91.67% coverage)
+
+
+
+<A name="mtw1_ts"></A><B><U><big>Timing summary (Setup and Hold):</big></U></B>
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

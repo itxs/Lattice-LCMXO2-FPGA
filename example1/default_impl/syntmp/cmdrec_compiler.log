@@ -1,0 +1,10 @@
+F:\Program Files\lscc\diamond\3.9_x64\synpbase\bin64\c_hdl.exe  -osyn  "C:\embedded\FPGA projects\example1\default_impl\synwork\example1_default_impl_comp.srs"  -hdllog  "C:\embedded\FPGA projects\example1\default_impl\synlog\example1_default_impl_compiler.srr"  -encrypt  -mp  4  -verification_mode 0  -verilog  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver   -I "C:\embedded\FPGA projects\example1"  -I "C:\embedded\FPGA projects\example1\default_impl\"  -I "F:\Program Files\lscc\diamond\3.9_x64\synpbase\lib"   -sysv  -devicelib  "F:\Program Files\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo2.v"  -devicelib  "F:\Program Files\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v"  -encrypt  -pro  -dmgen  "C:\embedded\FPGA projects\example1\default_impl\dm"  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -D_MULTIPLE_FILE_COMPILATION_UNIT_  -lib work -fsysv "C:\embedded\FPGA projects\example1\top.sv" 
+rc:0 success:1 runtime:2
+file:C:\embedded\FPGA projects\example1\default_impl\synwork\example1_default_impl_comp.srs|io:o|time:1496014789|size:2293|exec:0
+file:C:\embedded\FPGA projects\example1\default_impl\synlog\example1_default_impl_compiler.srr|io:o|time:1496014789|size:3264|exec:0
+file:F:\Program Files\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo2.v|io:i|time:1489018444|size:54295|exec:0
+file:F:\Program Files\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v|io:i|time:1489018444|size:40584|exec:0
+file:-fsysv|io:i|time:0|size:0|exec:0
+file:C:\embedded\FPGA projects\example1\top.sv|io:i|time:1496012552|size:453|exec:0
+file:F:\Program Files\lscc\diamond\3.9_x64\synpbase\bin\c_hdl.exe|io:i|time:1489193968|size:1338368|exec:1
+file:F:\Program Files\lscc\diamond\3.9_x64\synpbase\bin64\c_hdl.exe|io:i|time:1489194174|size:1754112|exec:1

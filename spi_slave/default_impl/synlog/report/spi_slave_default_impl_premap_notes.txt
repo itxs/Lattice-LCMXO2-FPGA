@@ -1,0 +1,9 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO111 :"c:\embedded\fpga projects\spi_slave\top.sv":11:8:11:10|Tristate driver LED_1 (in view: work.top(verilog)) on net LED[7] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\embedded\fpga projects\spi_slave\top.sv":11:8:11:10|Tristate driver LED_2 (in view: work.top(verilog)) on net LED[6] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\embedded\fpga projects\spi_slave\top.sv":11:8:11:10|Tristate driver LED_3 (in view: work.top(verilog)) on net LED[5] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\embedded\fpga projects\spi_slave\top.sv":11:8:11:10|Tristate driver LED_4 (in view: work.top(verilog)) on net LED[4] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\embedded\fpga projects\spi_slave\top.sv":11:8:11:10|Tristate driver LED_5 (in view: work.top(verilog)) on net LED[3] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\embedded\fpga projects\spi_slave\top.sv":11:8:11:10|Tristate driver LED_6 (in view: work.top(verilog)) on net LED[2] (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\embedded\fpga projects\spi_slave\top.sv":11:8:11:10|Tristate driver LED_7 (in view: work.top(verilog)) on net LED[1] (in view: work.top(verilog)) has its enable tied to GND.

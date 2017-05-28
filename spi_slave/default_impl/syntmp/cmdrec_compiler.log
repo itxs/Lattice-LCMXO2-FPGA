@@ -1,0 +1,12 @@
+F:\Program Files\lscc\diamond\3.9_x64\synpbase\bin64\c_hdl.exe  -osyn  "C:\embedded\FPGA projects\spi_slave\default_impl\synwork\spi_slave_default_impl_comp.srs"  -hdllog  "C:\embedded\FPGA projects\spi_slave\default_impl\synlog\spi_slave_default_impl_compiler.srr"  -encrypt  -mp  4  -verification_mode 0  -verilog  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver   -I "C:\embedded\FPGA projects\spi_slave"  -I "C:\embedded\FPGA projects\spi_slave\default_impl\"  -I "F:\Program Files\lscc\diamond\3.9_x64\synpbase\lib"   -v2001  -devicelib  "F:\Program Files\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo2.v"  -devicelib  "F:\Program Files\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v"  -encrypt  -pro  -dmgen  "C:\embedded\FPGA projects\spi_slave\default_impl\dm"  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -D_MULTIPLE_FILE_COMPILATION_UNIT_  -lib work -fsysv "C:\embedded\FPGA projects\spi_slave\spi_slave.sv" -lib work -fsysv "C:\embedded\FPGA projects\spi_slave\top.sv" 
+rc:0 success:1 runtime:1
+file:C:\embedded\FPGA projects\spi_slave\default_impl\synwork\spi_slave_default_impl_comp.srs|io:o|time:1496015408|size:4122|exec:0
+file:C:\embedded\FPGA projects\spi_slave\default_impl\synlog\spi_slave_default_impl_compiler.srr|io:o|time:1496015408|size:3983|exec:0
+file:F:\Program Files\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo2.v|io:i|time:1489018444|size:54295|exec:0
+file:F:\Program Files\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v|io:i|time:1489018444|size:40584|exec:0
+file:-fsysv|io:i|time:0|size:0|exec:0
+file:C:\embedded\FPGA projects\spi_slave\spi_slave.sv|io:i|time:1496015404|size:2404|exec:0
+file:-fsysv|io:i|time:0|size:0|exec:0
+file:C:\embedded\FPGA projects\spi_slave\top.sv|io:i|time:1496015060|size:285|exec:0
+file:F:\Program Files\lscc\diamond\3.9_x64\synpbase\bin\c_hdl.exe|io:i|time:1489193968|size:1338368|exec:1
+file:F:\Program Files\lscc\diamond\3.9_x64\synpbase\bin64\c_hdl.exe|io:i|time:1489194174|size:1754112|exec:1

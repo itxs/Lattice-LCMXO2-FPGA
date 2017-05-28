@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>spi/cnt_s_0_COUT[7]</Dynamic>
+            <Navigation>spi/cnt_s_0_COUT[7]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>spi/cnt_s_0_S1[7]</Dynamic>
+            <Navigation>spi/cnt_s_0_S1[7]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>spi/cnt_cry_0_S0[0]</Dynamic>
+            <Navigation>spi/cnt_cry_0_S0[0]</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>3</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG921 :&quot;C:\embedded\FPGA projects\spi_slave\spi_slave.sv&quot;:51:5:51:7|LED is already declared in this scope.</Dynamic>
+            <Navigation>CG921</Navigation>
+            <Navigation>C:\embedded\FPGA projects\spi_slave\spi_slave.sv</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>51</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>LED is already declared in this scope.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\embedded\FPGA projects\spi_slave\spi_slave.sv&quot;:34:1:34:9|Pruning unused bits 7 to 1 of byte_data_received[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\embedded\FPGA projects\spi_slave\spi_slave.sv</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused bits 7 to 1 of byte_data_received[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL157 :&quot;C:\embedded\FPGA projects\spi_slave\top.sv&quot;:11:8:11:10|*Output LED has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.</Dynamic>
+            <Navigation>CL157</Navigation>
+            <Navigation>C:\embedded\FPGA projects\spi_slave\top.sv</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>*Output LED has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\embedded\fpga projects\spi_slave\spi_slave.sv&quot;:52:1:52:9|Found inferred clock top|CLK which controls 30 sequential elements including spi.LED. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\embedded\fpga projects\spi_slave\spi_slave.sv</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Found inferred clock top|CLK which controls 30 sequential elements including spi.LED. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock top|CLK with period 1000.00ns. Please declare a user-defined clock on object &quot;p:CLK&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock top|CLK with period 1000.00ns. Please declare a user-defined clock on object &quot;p:CLK&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

@@ -1,0 +1,43 @@
+----------------------------------------------------------------------
+Report for cell top.verilog
+
+Register bits: 30 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       14
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        5       100.0
+                            FD1P3AX       16       100.0
+                            FD1S3AX        5       100.0
+                            FD1S3IX        4       100.0
+                                GSR        1       100.0
+                                 IB        4       100.0
+                           IFS1P3DX        3       100.0
+                                INV        1       100.0
+                                 OB        3       100.0
+                                OBZ        7       100.0
+                           OFS1P3BX        1       100.0
+                           OFS1P3DX        1       100.0
+                           ORCALUT4       17       100.0
+                                PUR        1       100.0
+                                VHI        2       100.0
+                                VLO        2       100.0
+SUB MODULES 
+                          SPI_Slave        1       100.0
+                            
+                         TOTAL            74           
+----------------------------------------------------------------------
+Report for cell SPI_Slave.netlist
+     Instance path:  spi
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        5       100.0
+                            FD1P3AX       16       100.0
+                            FD1S3AX        5       100.0
+                            FD1S3IX        4       100.0
+                                INV        1       100.0
+                           ORCALUT4       17       100.0
+                                VHI        1        50.0
+                                VLO        1        50.0
+                            
+                         TOTAL            50           

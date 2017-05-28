@@ -1,0 +1,4 @@
+@W: CG921 :"C:\embedded\FPGA projects\spi_slave\spi_slave.sv":51:5:51:7|LED is already declared in this scope.
+@W: CL271 :"C:\embedded\FPGA projects\spi_slave\spi_slave.sv":34:1:34:9|Pruning unused bits 7 to 1 of byte_data_received[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL157 :"C:\embedded\FPGA projects\spi_slave\top.sv":11:8:11:10|*Output LED has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+

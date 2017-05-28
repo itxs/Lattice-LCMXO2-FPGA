@@ -1,0 +1,29 @@
+#Start recording tcl command: 5/29/2017 02:04:35
+#Project Location: C:/embedded/FPGA projects/spi_slave; Project name: spi_slave
+prj_project new -name "spi_slave" -impl "default_impl" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/embedded/FPGA projects/spi_slave/spi_slave.sv" "C:/embedded/FPGA projects/spi_slave/top.sv"
+prj_project save
+prj_run Export -impl default_impl
+prj_run Export -impl default_impl
+prj_run Export -impl default_impl
+prj_run Map -impl default_impl
+prj_run PAR -impl default_impl
+prj_run Export -impl default_impl
+prj_run Export -impl default_impl
+prj_run Export -impl default_impl
+prj_run Export -impl default_impl
+prj_run Export -impl default_impl
+prj_run Export -impl default_impl
+prj_run Export -impl default_impl
+prj_run PAR -impl default_impl -task IOTiming
+prj_run Export -impl default_impl
+prj_run Export -impl default_impl
+prj_run Export -impl default_impl
+prj_run Export -impl default_impl
+prj_run Export -impl default_impl
+prj_run Export -impl default_impl
+prj_run Export -impl default_impl
+prj_run Export -impl default_impl -forceAll
+prj_run Export -impl default_impl
+prj_project close
+#Stop recording: 5/29/2017 02:38:45

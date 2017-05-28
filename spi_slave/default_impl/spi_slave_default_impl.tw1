@@ -1,0 +1,207 @@
+
+Loading design for application trce from file spi_slave_default_impl_map.ncd.
+Design name: top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Loading device for application trce from file 'xo2c7000.nph' in environment: F:/Program Files/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.9.1.119
+Mon May 29 02:50:12 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o spi_slave_default_impl.tw1 -gui -msgset C:/embedded/FPGA projects/spi_slave/promote.xml spi_slave_default_impl_map.ncd spi_slave_default_impl.prf 
+Design file:     spi_slave_default_impl_map.ncd
+Preference file: spi_slave_default_impl.prf
+Device,speed:    LCMXO2-7000HE,5
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY 48.000000 MHz ;
+            148 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 16.811ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              spi/SCKreg[2]  (from CLK_c +)
+   Destination:    FF         Data in        spi/byte_received  (to CLK_c +)
+
+   Delay:               3.774ns  (34.8% logic, 65.2% route), 3 logic levels.
+
+ Constraint Details:
+
+      3.774ns physical path delay spi/SLICE_16 to spi/SLICE_5 meets
+     20.833ns delay constraint less
+      0.248ns LSR_SET requirement (totaling 20.585ns) by 16.811ns
+
+ Physical Path Details:
+
+      Data path spi/SLICE_16 to spi/SLICE_5:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409 */SLICE_16.CLK to *i/SLICE_16.Q0 spi/SLICE_16 (from CLK_c)
+ROUTE         5   e 1.030 *i/SLICE_16.Q0 to *i/SLICE_17.B1 spi/SCKreg[2]
+CTOF_DEL    ---     0.452 *i/SLICE_17.B1 to *i/SLICE_17.F1 spi/SLICE_17
+ROUTE         2   e 0.401 *i/SLICE_17.F1 to *i/SLICE_17.B0 spi/bit_count8_0
+CTOF_DEL    ---     0.452 *i/SLICE_17.B0 to *i/SLICE_17.F0 spi/SLICE_17
+ROUTE         1   e 1.030 *i/SLICE_17.F0 to *i/SLICE_5.LSR spi/byte_receivedc_i (to CLK_c)
+                  --------
+                    3.774   (34.8% logic, 65.2% route), 3 logic levels.
+
+Report:  248.633MHz is the maximum frequency for this preference.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY 48.000000 MHz ;               |   48.000 MHz|  248.633 MHz|   3  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 1 clocks:
+
+Clock Domain: CLK_c   Source: CLK.PAD   Loads: 21
+   Covered under: FREQUENCY 48.000000 MHz ;
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 148 paths, 1 nets, and 144 connections (96.64% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.9.1.119
+Mon May 29 02:50:12 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o spi_slave_default_impl.tw1 -gui -msgset C:/embedded/FPGA projects/spi_slave/promote.xml spi_slave_default_impl_map.ncd spi_slave_default_impl.prf 
+Design file:     spi_slave_default_impl_map.ncd
+Preference file: spi_slave_default_impl.prf
+Device,speed:    LCMXO2-7000HE,M
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY 48.000000 MHz ;
+            148 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.447ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              spi/bit_count[2]  (from CLK_c +)
+   Destination:    FF         Data in        spi/bit_count[2]  (to CLK_c +)
+
+   Delay:               0.434ns  (53.9% logic, 46.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.434ns physical path delay SLICE_10 to SLICE_10 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling -0.013ns) by 0.447ns
+
+ Physical Path Details:
+
+      Data path SLICE_10 to SLICE_10:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133   SLICE_10.CLK to    SLICE_10.Q0 SLICE_10 (from CLK_c)
+ROUTE         3   e 0.199    SLICE_10.Q0 to    SLICE_10.D0 spi/bit_count[2]
+CTOF_DEL    ---     0.101    SLICE_10.D0 to    SLICE_10.F0 SLICE_10
+ROUTE         1   e 0.001    SLICE_10.F0 to   SLICE_10.DI0 spi/bit_count_RNO[2] (to CLK_c)
+                  --------
+                    0.434   (53.9% logic, 46.1% route), 2 logic levels.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY 48.000000 MHz ;               |            -|            -|   2  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 1 clocks:
+
+Clock Domain: CLK_c   Source: CLK.PAD   Loads: 21
+   Covered under: FREQUENCY 48.000000 MHz ;
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 148 paths, 1 nets, and 144 connections (96.64% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+

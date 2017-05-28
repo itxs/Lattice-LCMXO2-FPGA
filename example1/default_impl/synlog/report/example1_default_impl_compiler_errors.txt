@@ -1,0 +1,2 @@
+@E: CG829 :"C:\embedded\FPGA projects\example1\top.sv":6:0:6:0|Unexpected ) after comma -- missing port in ANSI port list
+

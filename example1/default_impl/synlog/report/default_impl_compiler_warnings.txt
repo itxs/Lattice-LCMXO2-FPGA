@@ -1,0 +1,23 @@
+@W: CL169 :"C:\embedded\FPGA projects\example1\top.sv":12:1:12:9|Pruning unused register counter_2_. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\embedded\FPGA projects\example1\top.sv":12:1:12:9|Pruning unused register counter_3_. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\embedded\FPGA projects\example1\top.sv":12:1:12:9|Pruning unused register counter_4_. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\embedded\FPGA projects\example1\top.sv":12:1:12:9|Pruning unused register counter_5_. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\embedded\FPGA projects\example1\top.sv":12:1:12:9|Pruning unused register counter_6_. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\embedded\FPGA projects\example1\top.sv":12:1:12:9|Pruning unused register counter_7_. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\embedded\FPGA projects\example1\top.sv":12:1:12:9|Pruning unused register counter_8_. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\embedded\FPGA projects\example1\top.sv":12:1:12:9|Pruning unused register counter_9_. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\embedded\FPGA projects\example1\top.sv":12:1:12:9|Pruning unused register counter_10_. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\embedded\FPGA projects\example1\top.sv":12:1:12:9|Pruning unused register counter_11_. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\embedded\FPGA projects\example1\top.sv":12:1:12:9|Pruning unused register counter_12_. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\embedded\FPGA projects\example1\top.sv":12:1:12:9|Pruning unused register counter_13_. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\embedded\FPGA projects\example1\top.sv":12:1:12:9|Pruning unused register counter_14_. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\embedded\FPGA projects\example1\top.sv":12:1:12:9|Pruning unused register counter_15_. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\embedded\FPGA projects\example1\top.sv":12:1:12:9|Pruning unused register counter_16_. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\embedded\FPGA projects\example1\top.sv":12:1:12:9|Pruning unused register counter_17_. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\embedded\FPGA projects\example1\top.sv":12:1:12:9|Pruning unused register counter_18_. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\embedded\FPGA projects\example1\top.sv":12:1:12:9|Pruning unused register counter_1_. Make sure that there are no unused intermediate registers.
+@W: CL154 :"C:\embedded\FPGA projects\example1\top.sv":12:1:12:9|Clock on register counter_19_ tied to a constant
+@W: CL154 :"C:\embedded\FPGA projects\example1\top.sv":12:1:12:9|Clock on register counter_20_ tied to a constant
+@W: CL154 :"C:\embedded\FPGA projects\example1\top.sv":12:1:12:9|Clock on register counter_21_ tied to a constant
+@W: CL154 :"C:\embedded\FPGA projects\example1\top.sv":12:1:12:9|Clock on register counter_22_ tied to a constant
+

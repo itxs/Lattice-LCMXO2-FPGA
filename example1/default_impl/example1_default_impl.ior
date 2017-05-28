@@ -1,0 +1,58 @@
+Loading design for application iotiming from file example1_default_impl.ncd.
+Design name: top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Loading design for application iotiming from file example1_default_impl.ncd.
+Design name: top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 6
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Loading design for application iotiming from file example1_default_impl.ncd.
+Design name: top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: M
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+// Design: top
+// Package: TQFP144
+// ncd File: example1_default_impl.ncd
+// Version: Diamond (64-bit) 3.9.1.119
+// Written on Mon May 29 02:40:30 2017
+// M: Minimum Performance Grade
+// iotiming example1_default_impl.ncd example1_default_impl.prf -gui -msgset C:/embedded/FPGA projects/example1/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 6, 5, 4):
+
+// Input Setup and Hold Times
+
+Port  Clock Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+(no input setup/hold data)
+
+
+// Clock to Output Delay
+
+Port  Clock Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+D[0]  CLK   R     8.639         4        3.034          M
+D[1]  CLK   R     8.642         4        3.042          M
+D[2]  CLK   R     8.440         4        2.966          M
+D[3]  CLK   R     8.410         4        2.974          M
+D[4]  CLK   R     8.013         4        2.834          M
+D[5]  CLK   R     8.013         4        2.834          M
+D[6]  CLK   R     8.212         4        2.902          M
+D[7]  CLK   R     8.013         4        2.834          M

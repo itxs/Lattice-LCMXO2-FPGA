@@ -1,0 +1,9 @@
+[default_impl_sei_0]
+Enable=true
+ID=0
+SEI%20File%20Name=example1_bitmap
+Method=Unused
+Block=PFU
+Site=R25C12B
+Frame=data frame 722
+Bit%20In%20Frame=bit 1427

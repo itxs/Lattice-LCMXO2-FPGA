@@ -1,0 +1,7 @@
+Selecting top level module top
+@N: CG364 :"C:\embedded\FPGA projects\spi_slave\spi_slave.sv":1:7:1:15|Synthesizing module SPI_Slave in library work.
+
+@W: CL271 :"C:\embedded\FPGA projects\spi_slave\spi_slave.sv":34:1:34:9|Pruning unused bits 7 to 1 of byte_data_received[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"C:\embedded\FPGA projects\spi_slave\top.sv":1:7:1:9|Synthesizing module top in library work.
+
+@W: CL157 :"C:\embedded\FPGA projects\spi_slave\top.sv":11:8:11:10|*Output LED has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.

@@ -1,0 +1,15 @@
+@W: CG360 :"C:\embedded\FPGA projects\example1\spi_slave.sv":9:8:9:10|Removing wire LED, as there is no assignment to it.
+@W: CG133 :"C:\embedded\FPGA projects\example1\spi_slave.sv":31:5:31:17|Object byte_received is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\embedded\FPGA projects\example1\spi_slave.sv":48:11:48:13|Object cnt is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"C:\embedded\FPGA projects\example1\spi_slave.sv":34:1:34:9|Pruning unused register byte_data_received[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\embedded\FPGA projects\example1\spi_slave.sv":26:1:26:9|Pruning unused register MOSIreg[1:0]. Make sure that there are no unused intermediate registers.
+@W: CG781 :"C:\embedded\FPGA projects\example1\top.sv":12:1:12:9|Input MOSI on instance II_0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CL169 :"C:\embedded\FPGA projects\example1\top.sv":24:1:24:9|Pruning unused register counter_27_. Make sure that there are no unused intermediate registers.
+@W: CL260 :"C:\embedded\FPGA projects\example1\spi_slave.sv":50:1:50:9|Pruning register bit 0 of byte_data_sent[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\embedded\FPGA projects\example1\spi_slave.sv":50:1:50:9|Pruning register bit 1 of byte_data_sent[7:1]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\embedded\FPGA projects\example1\spi_slave.sv":50:1:50:9|Pruning register bit 2 of byte_data_sent[7:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\embedded\FPGA projects\example1\spi_slave.sv":50:1:50:9|Pruning register bit 3 of byte_data_sent[7:3]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL257 :"C:\embedded\FPGA projects\example1\spi_slave.sv":50:1:50:9|Register bit 0 always 0, optimizing ...
+@W: CL260 :"C:\embedded\FPGA projects\example1\spi_slave.sv":50:1:50:9|Pruning register bit 4 of byte_data_sent[7:4]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL157 :"C:\embedded\FPGA projects\example1\spi_slave.sv":9:8:9:10|*Output LED has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+

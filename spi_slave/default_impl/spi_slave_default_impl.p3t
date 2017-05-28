@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "spi_slave_default_impl.log"
+-o "spi_slave_default_impl.csv"
+-pr "spi_slave_default_impl.prf"

@@ -1,0 +1,2 @@
+@E: CG195 :"C:\embedded\FPGA projects\example1\top.sv":12:13:12:27|posedge/negedge argument must be one bit, argument has 23 bits
+

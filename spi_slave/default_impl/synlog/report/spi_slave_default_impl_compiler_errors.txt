@@ -1,0 +1,2 @@
+@E: CG680 :"C:\embedded\FPGA projects\spi_slave\top.sv":20:10:20:12|Package spi not found (must occur before use)
+

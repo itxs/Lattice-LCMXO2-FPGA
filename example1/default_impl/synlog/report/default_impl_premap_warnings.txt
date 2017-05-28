@@ -1,0 +1,3 @@
+@W: BN132 :"c:\embedded\fpga projects\example1\top.sv":12:1:12:9|Removing sequential instance counter_22_ because it is equivalent to instance counter_21_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\embedded\fpga projects\example1\top.sv":12:1:12:9|Removing sequential instance counter_21_ because it is equivalent to instance counter_20_. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\embedded\fpga projects\example1\top.sv":12:1:12:9|Removing sequential instance counter_20_ because it is equivalent to instance counter_19_. To keep the instance, apply constraint syn_preserve=1 on the instance.

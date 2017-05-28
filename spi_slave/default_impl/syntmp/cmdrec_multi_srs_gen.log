@@ -1,0 +1,7 @@
+F:\Program Files\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  "C:\embedded\FPGA projects\spi_slave\default_impl\synwork\spi_slave_default_impl_comp.srs"  -osyn  "C:\embedded\FPGA projects\spi_slave\default_impl\synwork\spi_slave_default_impl_mult.srs"  -log  "C:\embedded\FPGA projects\spi_slave\default_impl\synlog\spi_slave_default_impl_multi_srs_gen.srr" 
+rc:0 success:1 runtime:0
+file:C:\embedded\FPGA projects\spi_slave\default_impl\synwork\spi_slave_default_impl_comp.srs|io:i|time:1496015408|size:4122|exec:0
+file:C:\embedded\FPGA projects\spi_slave\default_impl\synwork\spi_slave_default_impl_mult.srs|io:o|time:1496015409|size:2201|exec:0
+file:C:\embedded\FPGA projects\spi_slave\default_impl\synlog\spi_slave_default_impl_multi_srs_gen.srr|io:o|time:1496015409|size:774|exec:0
+file:F:\Program Files\lscc\diamond\3.9_x64\synpbase\bin\syn_nfilter.exe|io:i|time:1489014452|size:3128320|exec:1
+file:F:\Program Files\lscc\diamond\3.9_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1489014720|size:3947520|exec:1
